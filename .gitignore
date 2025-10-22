@@ -6,6 +6,12 @@ obj/
 credentials.json
 token.json/
 
+# テスト結果とカバレッジ
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
 # Visual Studio
 .vs/
 *.user

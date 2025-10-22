@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+  <DataCollectionRunSettings>
+    <DataCollectors>
+      <DataCollector friendlyName="XPlat code coverage">
+        <Configuration>
+          <!-- カバレッジ出力形式 -->
+          <Format>cobertura</Format>
+          
+          <!-- 除外するアセンブリやネームスペース -->
+          <Exclude>
+            <!-- テストプロジェクトを除外 -->
+            [*.Tests]*,
+            <!-- Programクラスを除外（エントリポイント） -->
+            [*]*.Program,
+            <!-- 自動生成されたコードを除外 -->
+            [*]*AssemblyInfo
+          </Exclude>
+          
+          <!-- 除外する属性 -->
+          <ExcludeByAttribute>Obsolete,GeneratedCode,CompilerGenerated,ExcludeFromCodeCoverage</ExcludeByAttribute>
+          
+          <!-- 除外するソースファイル -->
+          <ExcludeByFile>
+            **/obj/**/*.*,
+            **/bin/**/*.*,
+            **/.vs/**/*.*
+          </ExcludeByFile>
+          
+          <!-- 単一ヒット有効化（パフォーマンス向上） -->
+          <SingleHit>false</SingleHit>
+          
+          <!-- ブランチカバレッジを含める -->
+          <IncludeTestAssembly>false</IncludeTestAssembly>
+          
+          <!-- 詳細度 -->
+          <DeterministicReport>true</DeterministicReport>
+        </Configuration>
+      </DataCollector>
+    </DataCollectors>
+  </DataCollectionRunSettings>
+  
+  <!-- テストの実行設定 -->
+  <RunConfiguration>
+    <!-- テストアダプターのパス -->
+    <TestAdaptersPaths>%UserProfile%\.nuget\packages</TestAdaptersPaths>
+    
+    <!-- 並列実行の設定 -->
+    <MaxCpuCount>0</MaxCpuCount>
+    
+    <!-- 結果ディレクトリ -->
+    <ResultsDirectory>.\TestResults</ResultsDirectory>
+  </RunConfiguration>
+</RunSettings>

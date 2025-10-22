@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTodosCLI", "GTodosCLI\GTod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTodosLib", "GTodosLib\GTodosLib.csproj", "{A9B8C7D6-5E4F-3A2B-91C8-1D23E4F56789}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GTodosLib.Tests", "GTodosLib.Tests\GTodosLib.Tests.csproj", "{38BA990B-8554-4C36-A7ED-E0348CAECB19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{DDB4EF12-CC4E-5E88-E6FC-71A802F4DE97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,8 +45,23 @@ Global
 		{A9B8C7D6-5E4F-3A2B-91C8-1D23E4F56789}.Release|x64.Build.0 = Release|Any CPU
 		{A9B8C7D6-5E4F-3A2B-91C8-1D23E4F56789}.Release|x86.ActiveCfg = Release|Any CPU
 		{A9B8C7D6-5E4F-3A2B-91C8-1D23E4F56789}.Release|x86.Build.0 = Release|Any CPU
+		{38BA990B-8554-4C36-A7ED-E0348CAECB19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BA990B-8554-4C36-A7ED-E0348CAECB19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BA990B-8554-4C36-A7ED-E0348CAECB19}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{38BA990B-8554-4C36-A7ED-E0348CAECB19}.Debug|x64.Build.0 = Debug|Any CPU
+		{38BA990B-8554-4C36-A7ED-E0348CAECB19}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{38BA990B-8554-4C36-A7ED-E0348CAECB19}.Debug|x86.Build.0 = Debug|Any CPU
+		{38BA990B-8554-4C36-A7ED-E0348CAECB19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BA990B-8554-4C36-A7ED-E0348CAECB19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38BA990B-8554-4C36-A7ED-E0348CAECB19}.Release|x64.ActiveCfg = Release|Any CPU
+		{38BA990B-8554-4C36-A7ED-E0348CAECB19}.Release|x64.Build.0 = Release|Any CPU
+		{38BA990B-8554-4C36-A7ED-E0348CAECB19}.Release|x86.ActiveCfg = Release|Any CPU
+		{38BA990B-8554-4C36-A7ED-E0348CAECB19}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3AA2846-E85F-436D-933A-7B3C88BC3389}
 	EndGlobalSection
 EndGlobal

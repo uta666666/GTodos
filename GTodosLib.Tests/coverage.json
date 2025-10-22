@@ -1,0 +1,144 @@
+{
+  "GTodosLib.dll": {
+    "C:\\Users\\slow-\\source\\repos\\GTodos\\GTodosLib\\GoogleTasksService.cs": {
+      "GTodosLib.GoogleTasksService": {
+        "System.Void GTodosLib.GoogleTasksService::.ctor(System.String)": {
+          "Lines": {
+            "16": 8,
+            "17": 8,
+            "18": 8,
+            "19": 8
+          },
+          "Branches": []
+        },
+        "System.Void GTodosLib.GoogleTasksService::.cctor()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      },
+      "GTodosLib.GoogleTasksService/<AuthenticateAsync>d__4": {
+        "System.Void GTodosLib.GoogleTasksService/<AuthenticateAsync>d__4::MoveNext()": {
+          "Lines": {
+            "22": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0
+          },
+          "Branches": []
+        }
+      },
+      "GTodosLib.GoogleTasksService/<CreateTaskAsync>d__7": {
+        "System.Void GTodosLib.GoogleTasksService/<CreateTaskAsync>d__7::MoveNext()": {
+          "Lines": {
+            "69": 3,
+            "70": 3,
+            "71": 3,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0
+          },
+          "Branches": [
+            {
+              "Line": 70,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 70,
+              "Offset": 34,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "GTodosLib.GoogleTasksService/<GetTaskListsAsync>d__5": {
+        "System.Void GTodosLib.GoogleTasksService/<GetTaskListsAsync>d__5::MoveNext()": {
+          "Lines": {
+            "43": 2,
+            "44": 2,
+            "45": 2,
+            "47": 0,
+            "48": 0,
+            "50": 0,
+            "51": 0
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 44,
+              "Offset": 34,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "GTodosLib.GoogleTasksService/<GetTasksAsync>d__6": {
+        "System.Void GTodosLib.GoogleTasksService/<GetTasksAsync>d__6::MoveNext()": {
+          "Lines": {
+            "54": 2,
+            "55": 2,
+            "56": 2,
+            "58": 0,
+            "59": 0,
+            "61": 0,
+            "62": 0
+          },
+          "Branches": [
+            {
+              "Line": 55,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 55,
+              "Offset": 34,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
