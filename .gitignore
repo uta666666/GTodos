@@ -1,0 +1,19 @@
+# ビルド出力
+bin/
+obj/
+
+# 認証情報（セキュリティのため）
+credentials.json
+token.json/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Rider
+.idea/
+
+# macOS
+.DS_Store
